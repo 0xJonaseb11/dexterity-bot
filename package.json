@@ -1,0 +1,17 @@
+{
+  "name": "bun-ts",
+  "author": "dayblox",
+  "description": "Bun + TypeScript starter",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@hxronetwork/dexterity-ts": "^1.6.33",
+    "@solana/web3.js": "^1.90.0",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
