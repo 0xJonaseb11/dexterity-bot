@@ -12,6 +12,7 @@
     "@coral-xyz/anchor": "^0.29.0",
     "@hxronetwork/dexterity-ts": "^1.6.33",
     "@solana/web3.js": "^1.90.0",
-    "node-telegram-bot-api": "^0.64.0"
+    "node-telegram-bot-api": "^0.64.0",
+    "wscat": "^5.2.1"
   }
 }
