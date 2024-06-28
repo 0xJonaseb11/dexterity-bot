@@ -19,13 +19,17 @@ A simple WebSocket server to get started using Bun.
 
 1.  **[Deploy on Railway](https://railway.app/template/BLofAq?referralCode=bonus)** or **[use this template](https://github.com/dayblox/bun-ws/generate)**
 
-2.  **Clone** the repository
+2.**Clone** the repository
+  
+  ```sh
+  git clone https://github.com/0xJonaseb11/dexterity-bot.git
+  ```
 
-3.  **Install** dependencies
+3.**Install** dependencies
 
-    ```sh
-    bun i
-    ```
+ ```sh
+ bun i
+ ```
 
 ## Usage
 
@@ -35,18 +39,18 @@ A simple WebSocket server to get started using Bun.
 
 - Connecting to the Server using a WebSocket client
 
-  ```sh
-  bunx wscat -c ws://localhost:3000
-  ```
+```sh
+bunx wscat -c ws://localhost:3000
+```
 
 - Running **tests** (**watch** mode)
 
-  ```sh
-  bun test --watch
-  ```
+```sh
+bun test --watch
+```
 
 - **Production** mode
 
-  ```sh
-  bun src/index.ts
-  ```
+```sh
+bun src/index.ts
+```

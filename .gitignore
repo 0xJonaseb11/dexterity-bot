@@ -3,3 +3,15 @@
 
 # Environment variables
 /.env*
+
+# compiler files
+cache
+out
+build
+dist
+
+# .github
+.github
+
+# .vscode
+.vscode
