@@ -3,7 +3,7 @@ import { cancelTraderSub } from "./bot-utils/cancelTraderSubHandler";
 import { newTraderSubHandler } from "./bot-utils/newTraderSubHandler";
 
 const token: string = "YOUR_TELEGRAM_BOT_TOKEN";
-const chatId: number = YOUR_TELEGRAM_CHAT_ID;
+const chatId: number = 7182858074; // TELEGRAM CHAT ID
 
 const bot = new TelegramBot(token, { polling: true });
 
